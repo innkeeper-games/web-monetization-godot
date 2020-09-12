@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="Web Monetization in Godot"
 config/icon="res://icon.png"
 
+[autoload]
+
+WebMonetization="*res://WebMonetization.gd"
+
 [importer_defaults]
 
 texture={
