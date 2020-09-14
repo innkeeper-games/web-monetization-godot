@@ -7,7 +7,7 @@ func _on_Area2D_body_entered(body) -> void:
 		$DelayTimer.start()
 
 
-func _on_Area2D_body_exited(body) -> void:
+func _on_Area2D_body_exited(_body) -> void:
 	$PopupMessage.close()
 
 

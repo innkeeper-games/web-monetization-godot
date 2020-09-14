@@ -46,4 +46,3 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 text = "This region is only accessible
 to users with Web Monetization
 enabled."
-[connection signal="resized" from="PanelContainer" to="." method="_on_PanelContainer_resized"]
